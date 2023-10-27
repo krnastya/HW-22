@@ -1,53 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-                <div class="container-fluid" style="background-color: olive;">
-                 <img src="./icons/box.png" alt="logo" width="70">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="background-color: olive;">
+                <img src="./icons/box.png" alt="logo" width="70">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Football</a></li>
-                          <li><a class="dropdown-item" href="#">Dance</a></li>
-                          <li><a class="dropdown-item" href="#">College Fair</a></li>
-                        </ul>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Football</a></li>
+                                <li><a class="dropdown-item" href="#">Dance</a></li>
+                                <li><a class="dropdown-item" href="#">College Fair</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-dark" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
                     </form>
-                  </div>
                 </div>
-              </nav>
-       
-       
+            </div>
+        </nav>
+
+
     </header>
 
-    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center fs-1 fw-bold mt-3" style="color: olive;">
+                    <h1>LATEST NEWS</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center fw-bold">
+                    <p>Stay in the loop. See what we're up to this monht!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <img src="./icons/pexels-karolina-grabowska-7876708.jpg" alt="pexel" width="850" height="500">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col fw-bold fs-4 mt-4">
+                    WHAT'S NEW
+                </div>
+            </div>
+
+            <div class="row featurette mt-3">
+                <div class="col-md-7 order-md-2 d-flex flex-column align-items-start justify-content-end">
+                    <h2 class="featurette-heading fw-normal lh-1">FOOTBALL SEASON IS HERE </h2>
+                    <p class="lead">Suport our team. Catch the football games this season at the campus field.</p>
+                    <button type="button" class="btn" style="background-color: olive;">Read more</button>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="./icons/pexels-pixabay-159655.jpg" alt="Football" width="400" height="400">
+                </div>
+            </div>
+
+            
+
+            <div class="row featurette mt-5">
+                <div class="col-md-7 d-flex flex-column align-items-end justify-content-end text-start da">
+                    <h2 class="featurette-heading fw-normal lh-1">DANCE TROUP AUDITIONS</h2>
+                    <p class="lead">The dance troup needs more member to join as they perform for plays and other events this school year.</p>
+                    <button type="button" class="btn" style="background-color: olive;">Read more</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="./icons/pexels-ana-bregantin-1930364.jpg" alt="dance" width="400" height="400">
+                </div>
+            </div>
+
+           
+
+            <div class="row featurette mt-5">
+                <div class="col-md-7 order-md-2 d-flex flex-column align-items-start justify-content-end">
+                    <h2 class="featurette-heading fw-normal lh-1">COLLEGE FAIR </h2>
+                    <p class="lead">Attend our annual get-together and make new friend at the campus.</p>
+                    <button type="button" class="btn" style="background-color: olive;">Read more</button>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="./icons/pexels-keira-burton-6146978.jpg" alt="college" width="400" height="350">
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
 
 
 
@@ -62,6 +131,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
